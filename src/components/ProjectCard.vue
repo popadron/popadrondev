@@ -58,7 +58,7 @@ defineProps<ProjectCardProps>();
       <div class="flex items-center gap-2">
         <Icon v-if="type === 'Privado'" icon="lucide:lock" class="w-4 h-4 text-yellow-400" />
         <Icon v-else icon="lucide:user" class="w-4 h-4 text-purple-400" />
-        <span class="text-xs font-black uppercase tracking-widest text-gray-500">{{ type }}</span>
+        <span class="text-xs font-black uppercase tracking-widest text-gray-400">{{ type }}</span>
       </div>
       <span :class="[
         'font-mono text-xs font-black uppercase border-2 px-2 py-0.5',

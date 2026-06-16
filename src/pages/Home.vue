@@ -9,7 +9,7 @@ import SecondaryBtn from "@/components/SecondaryBtn.vue";
 import ExperienceTimeline from "@/components/ExperienceTimeline.vue";
 import HoverTag from "@/components/HoverTag.vue";
 import Frame from "@/components/Frame.vue";
-import profileImage from "@/assets/img/meTankTop.png";
+import profileImage from "@/assets/img/meTankTop.webp";
 
 const projects = [
     {
@@ -128,7 +128,6 @@ const SECTION_CONTACT = { id: "contacto", title: "Contacto", num: 4 };
                         <span class="hero-tag hero-tag--game">🎮 Game Dev</span>
                         <span class="hero-tag">✦ UX / UI</span>
                         <span class="hero-tag hero-tag--game">◈ 3D & Creative</span>
-                        <span class="hero-tag">⚙ Odoo</span>
                     </div>
                     <div class="flex flex-wrap justify-center lg:justify-start gap-4">
                         <AccentBtn to="#proyectos" label="Ver Proyectos" />
@@ -155,7 +154,7 @@ const SECTION_CONTACT = { id: "contacto", title: "Contacto", num: 4 };
                     </div>
 
                     <div>
-                        <h3 class="text-xs font-black uppercase tracking-widest text-gray-500 mb-3 border-b border-gray-800 pb-2">Database</h3>
+                        <h3 class="text-xs font-black uppercase tracking-widest text-gray-400 mb-3 border-b border-gray-800 pb-2">Database</h3>
                         <div class="flex flex-wrap gap-2">
                             <HoverTag v-for="skill in skills.filter((s) => s.cat === 'Database')" :key="skill.name" :skill="skill" />
                         </div>
@@ -164,7 +163,7 @@ const SECTION_CONTACT = { id: "contacto", title: "Contacto", num: 4 };
 
                 <div class="space-y-8">
                     <div v-for="category in ['Frontend', 'Backend', 'Mobile']" :key="category">
-                        <h3 class="text-xs font-black uppercase tracking-widest text-gray-500 mb-3 border-b border-gray-800 pb-2">{{ category }}</h3>
+                        <h3 class="text-xs font-black uppercase tracking-widest text-gray-400 mb-3 border-b border-gray-800 pb-2">{{ category }}</h3>
                         <div class="flex flex-wrap gap-2">
                             <HoverTag v-for="skill in skills.filter((s) => s.cat === category)" :key="skill.name" :skill="skill" />
                         </div>
@@ -215,14 +214,14 @@ const SECTION_CONTACT = { id: "contacto", title: "Contacto", num: 4 };
                                 <p class="text-gray-400 text-xs">popadron.dev@gmail.com</p>
                             </div>
                         </div>
-                        <Icon icon="lucide:arrow-up-right" class="text-gray-500" />
+                        <Icon icon="lucide:arrow-up-right" class="text-gray-400" />
                     </a>
 
                     <a href="https://www.linkedin.com/in/popadron" target="_blank" class="flex items-center gap-4 p-6 border-2 border-gray-700 hover:border-white">
                         <Icon icon="logos:linkedin-icon" class="text-2xl" />
                         <div>
                             <p class="font-black text-white uppercase text-sm">LinkedIn</p>
-                            <p class="text-gray-500 text-xs">Conecta</p>
+                            <p class="text-gray-400 text-xs">Conecta</p>
                         </div>
                     </a>
 
@@ -230,7 +229,7 @@ const SECTION_CONTACT = { id: "contacto", title: "Contacto", num: 4 };
                         <Icon icon="logos:github-icon" class="text-2xl invert" />
                         <div>
                             <p class="font-black text-white uppercase text-sm">GitHub</p>
-                            <p class="text-gray-500 text-xs">popadron</p>
+                            <p class="text-gray-400 text-xs">popadron</p>
                         </div>
                     </a>
 
@@ -239,7 +238,7 @@ const SECTION_CONTACT = { id: "contacto", title: "Contacto", num: 4 };
                             <Icon icon="lucide:file-text" class="text-2xl text-white" />
                             <span class="font-black text-white uppercase text-sm">Descargar CV (PDF)</span>
                         </div>
-                        <Icon icon="lucide:download" class="text-gray-500" />
+                        <Icon icon="lucide:download" class="text-gray-400" />
                     </button>
                 </div>
             </div>
