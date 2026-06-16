@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@svg/*": ["src/assets/svg/*"]
+    }
+  },
+  "include": ["src"]
+}

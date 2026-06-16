@@ -1,0 +1,15 @@
+:root {
+    /* Accents */
+    --color-purple:       #a855f7; /* purple-500  — main accent, shadows */
+    --color-green:        #4ade80; /* green-400   — game / current-job accent */
+
+    /* Game palette */
+    --color-game-bg:      #020802; /* near-black  — game card background */
+    --color-game-mid:     #166534; /* green-800   — borders, hero-tag--game */
+    --color-game-dark:    #14532d; /* green-900   — game card offset shadow */
+    --color-game-deep:    #052e16; /* green-950   — dither texture fill */
+
+    /* Neutral */
+    --color-border-muted: #4b5563; /* gray-600    — hero-tag border */
+    --color-text-muted:   #9ca3af; /* gray-400    — hero-tag text */
+}

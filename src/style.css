@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+html::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
